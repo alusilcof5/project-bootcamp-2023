@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Domb Boom - Electronic Drum Replica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main class="container" role="main">
+        <section class="intro" aria-label="Site Introduction">
+            <h1>Music for everyone.</h1>
+            <p class="subtitle">Millions of sounds. No credit card needed.</p>
+            
+        </section>
+        <section class="drumkit" aria-label="Electronic drum set with eight toms">
+            <button class="drum-pad pad-tom1" data-sound="audio/tom1.wav" aria-label="Hit Tom 1">
+                <div class="key-hint">1</div>
+            </button>
+            <button class="drum-pad pad-tom2" data-sound="audio/tom2.wav" aria-label="Hit Tom 2">
+                <div class="key-hint">2</div>
+            </button>
+            <button class="drum-pad pad-tom3" data-sound="audio/tom3.wav" aria-label="Hit Tom 3">
+                <div class="key-hint">3</div>
+            </button>
+            <button class="drum-pad pad-tom4" data-sound="audio/tom4.wav" aria-label="Hit Tom 4">
+                <div class="key-hint">4</div>
+            </button>
+            <div class="central-pad" aria-hidden="true"></div>
+            <button class="drum-pad pad-tom5" data-sound="audio/tom5.wav" aria-label="Hit Tom 5">
+                <div class="key-hint">5</div>
+            </button>
+            <button class="drum-pad pad-tom6" data-sound="audio/tom6.wav" aria-label="Hit Tom 6">
+                <div class="key-hint">6</div>
+            </button>
+            <button class="drum-pad pad-tom7" data-sound="audio/tom7.wav" aria-label="Hit Tom 7">
+                <div class="key-hint">7</div>
+            </button>
+            <button class="drum-pad pad-tom8" data-sound="audio/tom8.wav" aria-label="Hit Tom 8">
+                <div class="key-hint">8</div>
+            </button>
+        </section>
+    </main>
+
+    <!-- Audio elements -->
+    <audio id="audio/tom1.wav" preload="auto" src="audio/tom1.wav"></audio>
+    <audio id="audio/tom2.wav" preload="auto" src="audio/tom2.wav"></audio>
+    <audio id="audio/tom3.wav" preload="auto" src="audio/tom3.wav"></audio>
+    <audio id="audio/tom4.wav" preload="auto" src="audio/tom4.wav"></audio>
+    <audio id="audio/tom5.wav" preload="auto" src="audio/tom5.wav"></audio>
+    <audio id="audio/tom6.wav" preload="auto" src="audio/tom6.wav"></audio>
+    <audio id="audio/tom7.wav" preload="auto" src="audio/tom7.wav"></audio>
+    <audio id="audio/tom8.wav" preload="auto" src="audio/tom8.wav"></audio>
+
+    <button class="btn-hit" id="hit-the-button" aria-label="Hit all drum pads">Hit the Drums</button>
+    <br>
+    <footer>
+        <div class="bottom-panel" aria-hidden="true">Drum Kit </div>
+        <div>Ana Lucía Silva Córdoba</div>
+    </footer>
+
+    <script src="button_music.js"></script>
+</body>
+
+</html>

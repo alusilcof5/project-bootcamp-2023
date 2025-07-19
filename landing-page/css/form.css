@@ -1,0 +1,75 @@
+/* Form Styles */
+.contact-form {
+  flex: 1;
+  max-width: 500px;
+  padding: 2rem;
+  background: var(--blanco);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(121, 76, 174, 0.15);
+  animation: fadeInRight 1s ease-out 0.5s both;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-form label {
+  color: var(--texto);
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  font-size: 1rem;
+  background: var(--fondo-form);
+  transition: all 0.3s ease;
+  outline: none;
+  font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--lila);
+  background: var(--blanco);
+  box-shadow: 0 0 0 3px rgba(121, 76, 174, 0.1);
+  transform: translateY(-2px);
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form button[type="submit"] {
+  background: linear-gradient(135deg, var(--lila), #9b6dd6);
+  color: var(--blanco);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 20px rgba(121, 76, 174, 0.3);
+  margin-top: 1rem;
+}
+
+.contact-form button[type="submit"]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(121, 76, 174, 0.4);
+}
+
+/* Responsive para formulario */
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 1.5rem;
+  }
+}

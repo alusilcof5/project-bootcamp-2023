@@ -1,0 +1,73 @@
+/* Personal Page Specific Styles */
+.Contact-info .text {
+  font-size: 1.1rem;
+  color: var(--texto);
+  line-height: 1.7;
+  margin-top: 1rem;
+  opacity: 0.9;
+  text-align: justify;
+}
+
+.PersonalContact {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.LinkedinPrin {
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(121, 76, 174, 0.2);
+}
+
+.LinkedinPrin:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 6px 20px rgba(121, 76, 174, 0.4);
+}
+
+.Linkedin {
+  width: 40px;
+  height: 40px;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  filter: brightness(0) invert(1);
+}
+
+.Linkedin:hover {
+  transform: scale(1.2);
+  filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+}
+
+/* Personal page avatar adjustments */
+.avatarImg {
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(121, 76, 174, 0.25);
+}
+
+/* Responsive adjustments for personal page */
+@media (max-width: 768px) {
+  .PersonalContact {
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .Contact-info .text {
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .PersonalContact {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .LinkedinPrin {
+    align-self: center;
+  }
+}
