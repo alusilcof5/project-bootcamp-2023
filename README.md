@@ -1,10 +1,10 @@
-# 🎓 Bootcamp 2023 · Proyectos Web
+# Bootcamp 2023 · Proyectos Web
 
 Este repositorio recopila los proyectos desarrollados durante el **Bootcamp de Desarrollo Web en 2023**. A lo largo del programa, trabajamos con tecnologías web fundamentales como **HTML**, **CSS** y **JavaScript**, aplicando principios de **diseño centrado en el usuario** y una metodología **ágil (Scrum)** con herramientas profesionales como **Figma**, **Trello** y **Jira**.
 
 ---
 
-## 🚀 Proyectos Realizados
+## Proyectos Realizados
 
 ### 1. Landing Page
 
@@ -54,7 +54,7 @@ Durante el bootcamp utilizamos herramientas y tecnologías clave para el desarro
 
 ---
 
-## 💡 Metodología Ágil
+## Metodología Ágil
 
 Todos los proyectos fueron desarrollados en un entorno ágil utilizando principios de **Scrum**:
 
@@ -66,14 +66,14 @@ Todos los proyectos fueron desarrollados en un entorno ágil utilizando principi
 
 ---
 
-## 👩‍💻 Sobre mí
+##  Sobre mí
 
 **Ana Lucía Silva Córdoba**  
 Desarrolladora web junior con formación en desarrollo frontend, backend, data science, accesibilidad, diseño UI/UX y metodologías ágiles. Creando por crear experiencias digitales inclusivas, visualmente atractivas y funcionales.
 
 ---
 
-## 📬 Contacto
+## Contacto
 
 - Email: [alusilvacordoba@gmail.com]
 - Portafolio: [https://www.linkedin.com/in/ana-lucia-silva-cordoba/]
